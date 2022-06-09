@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/drawable/corner_radius.xml" value="0.237" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/drawable/shape_drawable.xml" value="0.237" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/activity_auth_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/activity_login_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/activity_register_menu.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/activity_splash.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/app_bar_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/fragment_gallery.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/fragment_slideshow.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/layout/nav_header_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/menu/activity_main_drawer.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/menu/main.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.237" />
+        <entry key="..\:/AndroidStudio/MAIK/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.237" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/drawable-v24/redondeado_layout.xml" value="0.1635" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/activity_auth_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/activity_login_menu.xml" value="0.176" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/activity_register_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/activity_splash.xml" value="0.20572916666666666" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/cardiewa.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/cardview.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/categoriascyclecard.xml" value="0.271875" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/fragment_gallery.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/fragment_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/fragment_oferta_trabajo.xml" value="0.24010416666666667" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/fragment_perfil.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/fragment_redireccionamiento.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/fragment_slideshow.xml" value="0.27291666666666664" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/layout/prueba_proyecto.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.237" />
+        <entry key="..\:/AndroidStudio/proyectofinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.237" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable-v24/gradient_1.xml" value="0.2685" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/gradient_1.xml" value="0.2685" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_auth_menu.xml" value="0.33" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_login_menu.xml" value="0.33" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.3463541666666667" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_register_menu.xml" value="0.33" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_splash.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/content_main.xml" value="0.3463541666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

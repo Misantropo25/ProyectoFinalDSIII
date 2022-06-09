@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <HorizontalScrollView
+        android:id="@+id/aa_hsv_01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/aa_btn_01"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#46bba6"
+                android:fontFamily="sans-serif"
+                android:text="Illustratior"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/aa_btn_02"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#7f899d"
+                android:fontFamily="sans-serif"
+                android:text="UX Designer"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/aa_btn_03"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#7f899d"
+                android:fontFamily="sans-serif"
+                android:text="UI Designer"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/aa_btn_04"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#7f899d"
+                android:fontFamily="sans-serif"
+                android:text="Designer"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aa_hsv_01">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent"
+                android:gravity="top">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/googleg_standard_color_18" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Graphic Degigner"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Hiring for Start up IT company"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Tiempo experiencia: 7 years"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Lugar: Kolkata"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Experience as Graphic Designer"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#0e1133"
+                        android:textAlignment="textEnd"
+                        android:text="1 Day ago"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent"
+                android:gravity="top">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/googleg_standard_color_18" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Graphic Degigner"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Hiring for Start up IT company"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Tiempo experiencia: 7 years"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Lugar: Kolkata"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Experience as Graphic Designer"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#0e1133"
+                        android:textAlignment="textEnd"
+                        android:text="1 Day ago"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent"
+                android:gravity="top">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/googleg_standard_color_18" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Graphic Degigner"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Hiring for Start up IT company"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Tiempo experiencia: 7 years"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Lugar: Kolkata"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Experience as Graphic Designer"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#0e1133"
+                        android:textAlignment="textEnd"
+                        android:text="1 Day ago"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                tools:ignore="UselessParent"
+                android:gravity="top">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/googleg_standard_color_18" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Graphic Degigner"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Hiring for Start up IT company"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Tiempo experiencia: 7 years"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Lugar: Kolkata"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:text="Experience as Graphic Designer"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#0e1133"
+                        android:textAlignment="textEnd"
+                        android:text="1 Day ago"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
